@@ -4,10 +4,10 @@ pygame.font.init()
 WIN_WIDTH = 500
 WIN_HEIGHT = 800
 
-BIRD_IMGS = [pygame.transform.scale2x(pygame.image.load(os.path.join("imgs", "bird1.png"))), pygame.transform.scale2x(pygame.image.load(os.path.join("imgs", "bird2.png"))), pygame.transform.scale2x(pygame.image.load(os.path.join("imgs", "bird3.png")))]
-PIPE = pygame.transform.scale2x(pygame.image.load(os.path.join("imgs", "pipe.png")))
-BASE_IMG = pygame.transform.scale2x(pygame.image.load(os.path.join("imgs", "base.png")))
-BG = pygame.transform.scale2x(pygame.image.load(os.path.join("imgs", "bg.png")))
+BIRD_IMGS = [pygame.transform.scale2x(pygame.image.load(os.path.join("flappy-bird-with-NEAT-AI", "imgs", "bird1.png"))), pygame.transform.scale2x(pygame.image.load(os.path.join("flappy-bird-with-NEAT-AI", "imgs", "bird2.png"))), pygame.transform.scale2x(pygame.image.load(os.path.join("flappy-bird-with-NEAT-AI", "imgs", "bird3.png")))]
+PIPE = pygame.transform.scale2x(pygame.image.load(os.path.join("flappy-bird-with-NEAT-AI", "imgs", "pipe.png")))
+BASE_IMG = pygame.transform.scale2x(pygame.image.load(os.path.join("flappy-bird-with-NEAT-AI", "imgs", "base.png")))
+BG = pygame.transform.scale2x(pygame.image.load(os.path.join("flappy-bird-with-NEAT-AI", "imgs", "bg.png")))
 
 STAT_FONT = pygame.font.SysFont("comicsans", 50)
 
